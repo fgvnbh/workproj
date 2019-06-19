@@ -1,6 +1,5 @@
 import '../App.css';
 import React,{Component} from 'react'
-import DropDown from './dropDownAddProject'
 class Main extends  Component
 {
     validate()
@@ -39,7 +38,7 @@ class Main extends  Component
                 <div><input type='password' className='Rectangle-Copy-168' placeholder='Password' id='password'/><div className='divForSignIN'><img src={require('../img/ic-eye-passive.svg')}
                                                                                                             className="ic_eye_passive" alt='smt' onClick={this.passVisible.bind(this)}/></div></div>
                 <div className='divForSignIN'>
-                    <button className='Rectangle'  onClick={()=><DropDown/>}>SIGN IN</button>
+                    <button className='Rectangle'  onClick={()=>this.validate()}>SIGN IN</button>
                 </div>
             </div>
         );
