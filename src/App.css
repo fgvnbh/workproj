@@ -1,33 +1,458 @@
-.App {
+@font-face{
+  font-family:CeraPro;
+  src: url(fonts/CeraPro-Regular.ttf)
+}
+.Sign-In-UI {
+  width: auto;
+  height: auto;
+  background-color: #f5f6fa;
+}
+.pa_logo_big {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 100px;
+  height: 57px;
+  object-fit: contain;
+  display: block;
+}
+.Rectangle-Copy-167 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 335px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #eef0f7;
+  display:block;
+  border-width: 0;
+}
+.Rectangle-Copy-168 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 335px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #eef0f7;
+  display: block;
+  border-width: 0;
+}
+.Rectangle {
+  font-family: CeraPro;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: -2px;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4b56c2;
+  color: #ffffff;
+  display: block;
+  border-width: 0;
+}
+.divForSignIN{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 365px;
+  height: 40px;
+  border-radius: 8px;
+  display: block;
+}
+.SIGN-IN {
+  width: 54px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.Password {
+  width: 65px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #d5d8df;
+  display: block;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: 13px;
+}
+.ic_eye_passive {
+  width: 22px;
+  height: 20px;
+  object-fit: contain;
+}
+.Rectangle-Copy-167::placeholder{
+  width: 133px;
+  height: 18px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+}
+textarea:focus,input,button,select:focus{
+  outline:none;
+}
+.Rectangle-Copy-168::placeholder{
+  width: 65px;
+  height: 18px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #d5d8df;
+}
+.ic_eye_passive {
+  width: 22px;
+  height: 20px;
+  object-fit: contain;
+  position: relative;
+  top: -31px;
+  left:328px;
+}
+/*drop menu part*/
+.menu{
+  width: 400px;
+  height: 657px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  position: relative;
+  display: block;
+  margin-top: -30px;
+}
+.innermenu{
+  padding-left: 41px;
+  padding-right: 39px;
+}
+.uppercolor{
+  width: 400px;
+  height: 70px;
+  background-color: #eef0f7;
   text-align: center;
 }
+.Add-Project-Copy-6 {
+  width: 92px;
+  height: 16px;
+  display: inline-block;
+  margin-top: 22px;
+  margin-bottom: 32px;
+  background-color: #eef0f7;
+  border-width: 0;
+}
+.Add-Project-Copy-6::placeholder {
+  font-family: CeraPro;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+}
+.projtitlediv{
+  border-width: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  width: 106px;
+  height: 16px;
+  font-family: CeraPro;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+  padding: 0 0 0 0;
+}
+.projnameinp{
+  margin-top: 16px;
+  border-width: 0;
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: rgba(213, 216, 223, 0.2);
+  padding: 0 10px;
+}
+.projnameinp::placeholder{
+  width: 91px;
+  height: 16px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+}
+.addmembersinp{
+  margin-top: 30px;
+  width: 114px;
+  height: 16px;
+  font-family: CeraPro;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+  border-width: 0;
+  padding: 0 0 0 0;
+}
+.memberaddactive{
+  display: block;
+  margin-top: 15px;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+}
+.userslist{
+  display: block;
+  margin-top: 20px;
+  margin-left: -40px;
+  height: 258px;
+  width: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
+}
+.underline{
+  margin-top: 40px;
+  width: 320px;
+  height: 1px;
+  opacity: 0.6;
+  background-color: #d5d8df;
+}
+.stepsinp{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: auto;
+  width: 71px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #404a65;
+  border-width: 0;
+}
+.nextbutton{
+  text-align: center;
+  display: block;
+  margin-right: 8px;
+  margin-left: 238px;
+  margin-top: -24px;
+  width: 75px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #4b56c2;
+  border-width: 0;
+  font-family: CeraPro;
+  color: #ffffff;
+}
+.secmenu{
+  width: 400px;
+  height: 490px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  color: #4b56c2;
+  background-color: #ffffff;
+  position: relative;
+  display: block;
+}
+.uppercolor2{
+  width: 400px;
+  height: 56px;
+  background-color: #eef0f7;
+  margin-top: 0;
+}
+.secmenusearch{
+  width: 57px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #a3b5c7;
+  border-width: 0;
+  background-color: #eef0f7;
+  margin-left: 40px;
+  margin-top: 23px;
+  display: inline-block;
+  padding: 0 0 0 0;
+}
+.secmenusearch::placeholder{
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+}
+.departmentslist{
+  width: 126px;
+  height: 18px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #404a65;
+  margin-top: 22px;
+  margin-left: 137px;
+  display: inline-block;
+  border-width: 0;
+  border-radius: 8px;
+  background: #eef0f7 url("./img/ic-arrow-down.svg") no-repeat 100% 65%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.summary{
+  width: 113px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #404a65;
+}
+.userslist2{
+  width: 400px;
+  height: 368px;
+  padding-bottom: 33px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ic_arrow_down {
+  width: 8px;
+  height: 5px;
+  object-fit: contain;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.singleuser{
+  scroll-snap-align: end;
+  width: 400px;
+  height: 56px;
+  display: block;
+}
+.useravatar{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 38px;
+  margin-top: 10px;
+  margin-bottom: 11px;
+  display: inline-block;
+}
+.userdescription{
+  display: inline-block;
+  margin-left: 10px;
+  bottom: 12px;
+  position: relative;
+}
+.username{
+  width: 200px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #404a65;
+  display: block;
+  border-width: 0;
+}
+.userdepartment{
+  width: 200px;
+  height: 14px;
+  font-family: CeraPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #a3b5c7;
+  display: block;
+  margin-top: 8px;
+  border-width: 0;
+}
+.adduser{
+  background-color: #4b56c2;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  bottom: 19px;
+  margin-left: 54px;
+  position: relative;
+}
+.plusimage{
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  display: inline-block;
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+.dropdownbutton{
+  height: 30px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+  background:rgba(213, 216, 223, 0.2);;
+}
+::-webkit-scrollbar-thumb {
+  background:#eef0f7;
+  border: thin solid #eef0f7;
+  border-radius:10px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#7d7d7d;
 }
